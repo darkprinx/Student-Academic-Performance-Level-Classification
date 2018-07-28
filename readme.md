@@ -6,7 +6,7 @@
 
 ### Inspiration 
 -------------------------------
-The repository is developed to visualize students academic activities & other factors that impacts on students overall academic performance and also to classify students level based on their academic performance & others related informations. The datasets for the analysis are collected from [Students' Academic Performance Dataset](https://www.kaggle.com/aljarah/xAPI-Edu-Data)
+***The repository is developed to visualize students academic activities & other factors that impacts on students overall academic performance and also to classify students level based on their academic performance & others related informations. The datasets for the analysis are collected from [Students' Academic Performance Dataset](https://www.kaggle.com/aljarah/xAPI-Edu-Data)***
 
 ***The dataset file contains data of 480 students including 17 attributes.For the analysis purpose 10 attributes from the data file including the 'Class' attribute are taken.To apply different machine learning approaches for the classification,the total dataset is divided into 400 training set & 80 test set.***
 
