@@ -70,6 +70,3 @@
    
 ------------------------
 
-### Data Visualization
--------------------------------
-***At first, the whole dataset is visualized in some different ways to make the reader understand the inner relations and dependencies among the attributes more clearly. This will also help to understand the factors those impacts on the students overall academic performance.***
