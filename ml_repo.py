@@ -125,6 +125,8 @@ def logistic_cost(x,y,th):
 def logistic_regression(train_data,Y,test_data,test_y,epoch = 10000,alpha = .1):
 
     theta = np.zeros((in_size, 3))
+    
+    # trainning
     slop = gradientDescent_logistic(train_data, Y, theta,epoch,alpha)
     ans = predict(train_data, slop.T)
 
@@ -173,10 +175,12 @@ def train(X,Y,alpha):
 
 def neural_network(train_data,Y,test_data,test_y,epoch = 10000,alpha = .1):
     global w1, w2, b1, b2
-
+    
+    # removing first column of 1's
     train_data = np.delete(train_data,np.s_[:1],axis=1)
     test_data = np.delete(test_data,np.s_[:1],axis=1)
-
+    
+    # initializing weight & bias
     w1 = np.random.randn(in_size-1, hidden_size)
     w2 = np.random.randn(hidden_size, out_size)
     b1 = np.random.randn(1, hidden_size)
@@ -202,6 +206,7 @@ def neural_network(train_data,Y,test_data,test_y,epoch = 10000,alpha = .1):
     acuracy_neural(ans, test_y)
     print("--------------------------\n\n")
 
+    
 def main():
 
     # Data processing part
@@ -237,8 +242,9 @@ def main():
 
     logistic_regression(train_data,Y,test_data,test_y,alpha=.3)
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n')
-    #
+    
     neural_network(train_data,Y,test_data,test_y)
 
-
-main()
+    
+if __name__ == "__main__":
+    main()
