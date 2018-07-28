@@ -10,6 +10,7 @@
 
 ***The dataset file contains data of 480 students including 17 attributes.For the analysis purpose 10 attributes from the data file including the 'Class' attribute are taken.To apply different machine learning approaches for the classification,the total dataset is divided into 400 training set & 80 test set.***
 
+**The whole description with all visualization & analisys can be found in this --> [NOTEBOOK](https://github.com/darkprinx/Students-Academic-Performance-Level-Classification/blob/master/Mechine%20learning.ipynb)**
 
 ----------------------------
 ### Dataset Information
