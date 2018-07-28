@@ -31,6 +31,7 @@
 
 * ***File formats: xAPI-Edu-Data.csv***
 
+
 ----------------------------------
 ### Attributes
 ----------------------------------
@@ -55,6 +56,7 @@
 
 10. ***Class - Overall performance level student belongs (Nominal: 'H','M','L')***
 
+
 -----------------
 ### The students are classified into three numerical intervals based on their total grade/mark ####
 ----------------
@@ -64,6 +66,7 @@
    * ***Middle-Level: interval includes values from 70 to 89***
 
    * ***High-Level: interval includes values from 90-100***
+   
    
 ------------------------
 
